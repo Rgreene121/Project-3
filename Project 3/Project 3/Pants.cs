@@ -17,7 +17,6 @@ namespace Project_3
         SlimFit
     }
     class Pants
-
     {
         static void Main(string[] args)
         {
