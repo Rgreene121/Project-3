@@ -24,7 +24,7 @@ namespace Project_3
 
         public void ShirtsO()
         {
-            Console.WriteLine($"1.Flower Print, 2.Animal Print, 3.Crop Style, 4.Button Down 5.Baby Doll");
+            Console.WriteLine($"1.Flower Print, 2.Animal Print, 3.Crop Style, 4.Button Down 5.Baby Doll Style 6.Hooded");
 
         }
     }
@@ -33,7 +33,7 @@ namespace Project_3
         public void ShoesO()
         {
             
-           Console.WriteLine($"1.Tennie Shoes 2.Slip On 3.Flip Flops 4.Heels 5.Flats");
+           Console.WriteLine($"1.Tennie Shoes 2.Slip On 3.Flip Flops 4.Heels 5.Flats 6.Mules");
 
 
         }
