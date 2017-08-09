@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Project_3
 {
+        
     class Program
     {
         static void Main(string[] args)
@@ -13,5 +14,8 @@ namespace Project_3
             Console.WriteLine("This is Rabi and Amelia's Department Store");
 
         }
+
     }
+
 }
+
