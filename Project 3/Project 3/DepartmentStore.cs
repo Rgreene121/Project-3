@@ -24,7 +24,7 @@ namespace Project_3
 
         public void ShirtsO()
         {
-            Console.WriteLine($"1.Flower Print, 2.Animal Print, 3.Crop Style, 4.Button Down 5.Baby Doll Style 6.Hooded");
+            Console.WriteLine($"1.Flower Print, 2.Animal Print, 3.Crop Style, 4.Button Down 5.Baby Doll Style 6.Hooded Top");
 
         }
     }
