@@ -10,7 +10,7 @@ namespace Project_3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("This is Rabi and Amelia's ShoeStore");
+            Console.WriteLine("This is Rabi and Amelia's Department Store");
 
         }
     }
