@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Project_3
 {
-    enum Pants
+    enum PantsStyle
     {
         Jeans = 1,
         DressPants,

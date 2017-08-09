@@ -33,7 +33,7 @@ namespace Project_3
         public void ShoesO()
         {
             
-           Console.WriteLine($"1.Tennie Shoes 2.Slip On 3.Flip Flops 4.Heels 5.Flats 6.Mules");
+           Console.WriteLine($"1.Tennis Shoes 2.Slip On 3.Flip Flops 4.Heels 5.Flats 6.Mules");
 
 
         }
