@@ -13,11 +13,9 @@ namespace Project_3
             public string Pants;
             public string Hats;
 
-        public virtual void PrintOptions()
+        public void Dept(DepartmentStore)
         {
             Console.WriteLine($"Welcome to RAD, which department would you like to shop from {Shirts} or{Shoes} or {Pants} or {Hats}?");
-
-
         }
     }
 }
