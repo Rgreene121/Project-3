@@ -20,7 +20,7 @@ namespace Project_3
     }
     class Pants
     {
-        static void Main(string[] args)
+        public void PantsDeptment()
         {
             int PantsChoice;
 

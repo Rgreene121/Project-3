@@ -7,17 +7,27 @@ using System.Threading.Tasks;
 namespace Project_3
 {
         
-    class Program
+    public class Program
     {
         static void Main(string[] args)
         {
             
             Constructor cr = new Constructor("Rabi", "Amelia");
             cr.US();
+            DepartmentStore ds = new DepartmentStore();
+            ds.StylePick();
+            Shirts st = new Shirts();
+            st.ShirtO();
+            Shoes sh = new Shoes();
+            sh.ShoesO();
+            Pants pt = new Pants();
+            pt.PantsDeptment();
 
-           
+
+            Console.ReadLine();
 
         }
+        
 
     }
 
