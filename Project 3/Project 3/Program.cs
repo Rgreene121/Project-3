@@ -16,15 +16,16 @@ namespace Project_3
             cr.US();
             DepartmentStore ds = new DepartmentStore();
             ds.StylePick();
-            Shirts st = new Shirts();
-            st.ShirtO();
-            Shoes sh = new Shoes();
-            sh.ShoesO();
-            Pants pt = new Pants();
-            pt.PantsDeptment();
+            //Shirts st = new Shirts();
+            //st.ShirtO();
+            //Shoes sh = new Shoes();
+            //sh.ShoesO();
+            //Pants pt = new Pants();
+            //pt.PantsDeptment();
 
             //int x = 30 * 70;
             //newbalance = x;
+
 
 
             Console.ReadLine();

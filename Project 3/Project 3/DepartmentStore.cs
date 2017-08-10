@@ -21,6 +21,10 @@ namespace Project_3
 
         public void StylePick ()
         {
+            Shirts shirtie = new Shirts();
+            Pants panties = new Pants();
+            Shoes shoeies = new Shoes();
+
             int StyleChoice;
 
             Console.WriteLine($"Welcome to RAD, which department would you like to shop from 1.Shirts or 2.Shoes or 3.Pants or 4.Hats?");
@@ -33,14 +37,18 @@ namespace Project_3
             {
                 case StyleOptions.Shirts:
                     Console.WriteLine("Welcome to the Shirt department. Which style of shirt would you like?");
+                    shirtie.ShirtO();
+
                     break;
 
                 case StyleOptions.Shoes:
-                    Console.WriteLine("Welcome to the Shoes department.?");
+                    Console.WriteLine("Welcome to the Shoes department.Which style of Shoes would you like?");
+                    shoeies.ShoesO();
                     break;
 
                 case StyleOptions.Pants:
                     Console.WriteLine("Welcome to the Pants department.Which style of Pants would you like?");
+                    panties.PantsDeptment();
                     break;
 
                 case StyleOptions.Hats:
@@ -79,7 +87,7 @@ namespace Project_3
         {
             int ShirtChoice;
 
-            Console.WriteLine($"Please select a style 1.Flower Print, 2.Animal Print, 3.Crop Style, 4.Button Down 5.Baby Doll Style 6.Hooded Top");
+            Console.WriteLine($"Please select a style \n 1.Flower Print, \n 2.Animal Print, \n 3.Crop Style, \n 4.Button Down \n 5.Baby Doll Style \n 6.Hooded Top");
 
             string Shirts = Console.ReadLine();
 
@@ -117,9 +125,7 @@ namespace Project_3
             }
             Console.WriteLine();
 
-
-
-
+                        
 
         }
     }
@@ -134,16 +140,12 @@ namespace Project_3
             Flats,
             Mules
         
-
-
-
-
         }
         public void ShoesO()
         {
             int ShoeChoice;
 
-           Console.WriteLine($"What style of shoe would you like today, 1.TennisShoes 2.SlipOn 3.FlipFlops 4.Heels 5.Flats 6.Mules");
+           Console.WriteLine($"Welcome to the shoe department. What style of shoe would you like today.\n 1.TennisShoes \n 2.SlipOn \n 3.FlipFlops \n 4.Heels \n 5.Flats \n 6.Mules");
             //Console.WriteLine();
             string shoes = Console.ReadLine();
 
@@ -174,10 +176,7 @@ namespace Project_3
                 case ShoeStyle.Mules:
                     Console.WriteLine("Mules are 20% off the original price of $70.00.");
                     break;
-
-
-
-
+                
 
             }
             Console.WriteLine("");
