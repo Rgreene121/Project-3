@@ -35,13 +35,13 @@ namespace Project_3
             
            Console.WriteLine($"1.Tennis Shoes 2.Slip On 3.Flip Flops 4.Heels 5.Flats 6.Mules");
 
-
+            
         }
     }
 
 
-
-}
+//Inheritancep1 switchpr1&2 accessmodifir
+} 
        
 
 
