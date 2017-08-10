@@ -93,6 +93,7 @@ namespace Project_3
 
             int.TryParse(Shirts, out ShirtChoice);
 
+            
             switch ((ShirtStyle)ShirtChoice)
             {
                 case ShirtStyle.FlowerPrint:
