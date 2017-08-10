@@ -167,6 +167,7 @@ namespace Project_3
                 case ShoeStyle.Mules:
                     Console.WriteLine("You have chosen a $ALE ITEM");
                     break;
+                
 
             }
             Console.WriteLine("");
