@@ -21,6 +21,10 @@ namespace Project_3
 
         public void StylePick ()
         {
+            Shirts shirtie = new Shirts();
+            Pants panties = new Pants();
+            Shoes shoeies = new Shoes();
+
             int StyleChoice;
 
             Console.WriteLine($"Welcome to RAD, which department would you like to shop from 1.Shirts or 2.Shoes or 3.Pants or 4.Hats?");
@@ -33,14 +37,18 @@ namespace Project_3
             {
                 case StyleOptions.Shirts:
                     Console.WriteLine("Welcome to the Shirt department. Which style of shirt would you like?");
+                    shirtie.ShirtO();
+
                     break;
 
                 case StyleOptions.Shoes:
                     Console.WriteLine("Welcome to the Shoes department.Which style of Shoes would you like?");
+                    shoeies.ShoesO();
                     break;
 
                 case StyleOptions.Pants:
                     Console.WriteLine("Welcome to the Pants department.Which style of Pants would you like?");
+                    panties.PantsDeptment();
                     break;
 
                 case StyleOptions.Hats:
@@ -143,7 +151,7 @@ namespace Project_3
         {
             int ShoeChoice;
 
-           Console.WriteLine($"Welcome to the shoe department. What style of shoe would you like today, 1.TennisShoes 2.SlipOn 3.FlipFlops 4.Heels 5.Flats 6.Mules");
+           Console.WriteLine($"Welcome to the shoe department. What style of shoe would you like today.\n 1.TennisShoes 2.SlipOn 3.FlipFlops 4.Heels 5.Flats 6.Mules");
             //Console.WriteLine();
             string shoes = Console.ReadLine();
 
