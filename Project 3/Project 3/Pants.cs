@@ -16,7 +16,7 @@ namespace Project_3
         Bootcut = 6,
         SlimFit = 7
 
-        //int 5 = 30,
+        //int 5 = 30;
     }
     class Pants
     {

@@ -9,21 +9,28 @@ namespace Project_3
 
     Enum StyleOptions
     {
-        Shirts = 1;
-        Shoes;
-        Pants;
-        Hats;
+        Shirts = 1,
+        Shoes,
+        Pants,
+        Hats
     }
 
     class DepartmentStore
     {//base class
-       
 
-        //public void PrintOptions()
-        //{
-        //    Console.WriteLine($"Welcome to RAD, which department would you like to shop from {Shirts} or{Shoes} or {Pants} or {Hats}?");
+        int stylePick;
 
-        //}
+        public void StyleChoice()
+        {
+            Console.WriteLine($"Welcome to RAD, which department would you like to shop from 1.Shirts or 2.Shoes or 3.Pants or 4.Hats?");
+
+            string style = Console.ReadLine();
+
+            int.TryParse(stylePick, out StyleChoice);
+
+            switch ((stylePick)StyleChoice)
+
+        }
     }
     class Shirts
     {
@@ -46,7 +53,7 @@ namespace Project_3
     }
 
 
-//Inheritancep1 switchpr1&2 accessmodifir
+
 } 
        
 
