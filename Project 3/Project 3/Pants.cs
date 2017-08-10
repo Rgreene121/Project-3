@@ -26,7 +26,7 @@ namespace Project_3
 
 
 
-            Console.WriteLine("Welcome to the Pants department, What style of pants would you like? \n 1. Jeans \n 2. DressPants \n 3. Corduroy \n 4. Linen \n 5. Capri's \n");
+            Console.WriteLine("What style of pants would you like? \n 1. Jeans \n 2. DressPants \n 3. Corduroy \n 4. Linen \n 5. Capri's \n");
 
             string pants = Console.ReadLine();
 

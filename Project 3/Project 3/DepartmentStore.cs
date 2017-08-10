@@ -36,7 +36,7 @@ namespace Project_3
                     break;
 
                 case StyleOptions.Shoes:
-                    Console.WriteLine("Welcome to the Shoes department.Which style of Shoes would you like?");
+                    Console.WriteLine("Welcome to the Shoes department.?");
                     break;
 
                 case StyleOptions.Pants:
@@ -143,7 +143,7 @@ namespace Project_3
         {
             int ShoeChoice;
 
-           Console.WriteLine($"Welcome to the shoe department. What style of shoe would you like today, 1.TennisShoes 2.SlipOn 3.FlipFlops 4.Heels 5.Flats 6.Mules");
+           Console.WriteLine($"What style of shoe would you like today, 1.TennisShoes 2.SlipOn 3.FlipFlops 4.Heels 5.Flats 6.Mules");
             //Console.WriteLine();
             string shoes = Console.ReadLine();
 
@@ -174,6 +174,10 @@ namespace Project_3
                 case ShoeStyle.Mules:
                     Console.WriteLine("Mules are 20% off the original price of $70.00.");
                     break;
+
+
+
+
 
             }
             Console.WriteLine("");
