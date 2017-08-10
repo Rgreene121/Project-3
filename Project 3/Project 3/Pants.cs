@@ -19,7 +19,6 @@ namespace Project_3
         //int 5 = 30,
     }
     class Pants
-
     {
         static void Main(string[] args)
         {
