@@ -47,6 +47,10 @@ namespace Project_3
                     Console.WriteLine("Welcome to the Hat department. Which style of Hat would you like?");
                     break;
 
+                default:
+                    Console.WriteLine("Thank you for shopping with us today. Please come again");
+                    break;
+
 
 
 
@@ -84,7 +88,10 @@ namespace Project_3
             switch ((ShirtStyle)ShirtChoice)
             {
                 case ShirtStyle.FlowerPrint:
-                     Console.WriteLine("You have chosen our Spring collection");
+                    
+                    //int y = 500;
+
+                    Console.WriteLine("You have chosen our Spring collection. your total is");
                     break;
 
                 case ShirtStyle.AnimalPrint:
@@ -108,7 +115,7 @@ namespace Project_3
                     break;
 
             }
-            Console.WriteLine("");
+            Console.WriteLine();
 
 
 
@@ -136,8 +143,8 @@ namespace Project_3
         {
             int ShoeChoice;
 
-           Console.WriteLine($"1.Tennis Shoes 2.Slip On 3.Flip Flops 4.Heels 5.Flats 6.Mules");
-            Console.WriteLine();
+           Console.WriteLine($"Welcome to the shoe department. What style of shoe would you like today, 1.TennisShoes 2.SlipOn 3.FlipFlops 4.Heels 5.Flats 6.Mules");
+            //Console.WriteLine();
             string shoes = Console.ReadLine();
 
             int.TryParse(shoes, out ShoeChoice);
@@ -165,7 +172,7 @@ namespace Project_3
                     break;
 
                 case ShoeStyle.Mules:
-                    Console.WriteLine("You have chosen a $ALE ITEM");
+                    Console.WriteLine("Mules are 20% off the original price of $70.00.");
                     break;
                 
 

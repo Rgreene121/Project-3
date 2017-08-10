@@ -23,6 +23,9 @@ namespace Project_3
             Pants pt = new Pants();
             pt.PantsDeptment();
 
+            //int x = 30 * 70;
+            //newbalance = x;
+
 
             Console.ReadLine();
 
