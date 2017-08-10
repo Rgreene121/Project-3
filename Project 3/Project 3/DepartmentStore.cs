@@ -76,7 +76,8 @@ namespace Project_3
                     break;
 
             }
-        
+            Console.WriteLine("");
+
 
 
 
@@ -112,11 +113,11 @@ namespace Project_3
             switch ((ShoeStyle)ShoeChoice)
             {
                 case ShoeStyle.TennisShoes:
-                    Console.WriteLine("You have chosen our Spring collection");
+                    Console.WriteLine("You have chosen our Strolling collection");
                     break;
 
                 case ShoeStyle.SlipOn:
-                    Console.WriteLine("You have chosen our Exotic collection");
+                    Console.WriteLine("You have chosen our EasySlide collection");
                     break;
 
                 case ShoeStyle.FlipFlops:
@@ -124,11 +125,11 @@ namespace Project_3
                     break;
 
                 case ShoeStyle.Heels:
-                    Console.WriteLine("You have chosen our Conservative collection");
+                    Console.WriteLine("You have chosen our SteppingOut collection");
                     break;
 
                 case ShoeStyle.Flats:
-                    Console.WriteLine("You have chosen our Fall collection");
+                    Console.WriteLine("You have chosen our EasyDoesIt collection");
                     break;
 
                 case ShoeStyle.Mules:
