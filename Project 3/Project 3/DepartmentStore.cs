@@ -6,18 +6,24 @@ using System.Threading.Tasks;
 
 namespace Project_3
 {
-    class DepartmentStore
+
+    Enum StyleOptions
     {
-        public string Shirts;
-        public string Shoes;
-        public string Pants;
-        public string Hats;
+        Shirts = 1;
+        Shoes;
+        Pants;
+        Hats;
+    }
 
-        public void PrintOptions()
-        {
-            Console.WriteLine($"Welcome to RAD, which department would you like to shop from {Shirts} or{Shoes} or {Pants} or {Hats}?");
+    class DepartmentStore
+    {//base class
+       
 
-        }
+        //public void PrintOptions()
+        //{
+        //    Console.WriteLine($"Welcome to RAD, which department would you like to shop from {Shirts} or{Shoes} or {Pants} or {Hats}?");
+
+        //}
     }
     class Shirts
     {
